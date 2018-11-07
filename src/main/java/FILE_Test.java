@@ -57,9 +57,7 @@ public class FILE_Test {
             e.printStackTrace();
         }
     }
-
-    public static void main(String[] args) {
-
+        public  static  void test2(){
 
             try {
                 //打开文件
@@ -85,6 +83,12 @@ public class FILE_Test {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+        }
+
+    public static void main(String[] args) {
+
+    TestOutputStream.Test();
+
         }
     }
 
