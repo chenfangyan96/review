@@ -21,3 +21,12 @@ work 存放有jsp翻译成的java 以及编辑成的class文件  jsp   java  cla
 配置项目在tomcat的路径   
 1》在server。xml中HOST中配置  添加 <Context  (实际路径)doBase="D:\study\javaProhect" path="/javaProject" >//这个是相对路径  相对于weapps的路径  其实就是D:\study\apachr\webapps\javaProject"
 2》在taomcat下conf   Catalina   localhost下新建  项目名.xml  中新增一行  <Context   dobase="诗经路径"    path=“/javaProject”>
+
+
+
+NIO  非阻塞IO   stream是单向的（input or  output）   NIO是双向的 
+   buffer缓存区  可以写入数据的内存块  也可以读取   容量  位置  限制
+        转换成读取模式需要  变成filp模式
+   Channel通道
+   selector选择器
+   
